@@ -4,3 +4,28 @@ pode usar o atalho de teclado Shift + Alt + F no Windows.
 Configuração GitHub
 git config --global user.name Reh200
 git config --global user.email alinerenata1400@gmail.com
+
+foto1 ela e eu
+foto2 ela e eu
+foto3 ela
+foto4 ela
+foto5 eu
+foto6 ela
+foto7 ela e eu
+foto8 ela
+foto9 eu e ela
+foto10 eu e ela
+foto11 ela
+foto12 eu
+foto13 eu e ela
+
+video1 ela mostrando o que esta vestindo
+video2 ela mostrando o que esta vestindo
+video3 ela mostrando o que esta vestindo
+video4 eu mostrando meu cabelo
+video5 eu mostrando meu cabelo
+video6 eu mostrando meu rosto com maquiagem
+video7 eu mostrando meu cabelo alisado
+video8 ela mostrando sua touca de coelho
+video9 ela mostrando que esta de toalha no cabelo
+video10 eu fazendo o gesto ✌🏻 e mostrando o que estava assistindo
