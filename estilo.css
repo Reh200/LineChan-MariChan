@@ -1,0 +1,167 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #fffaf7, #ffeef2);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(135deg, #ff9aa2, #ffb6c1, #ffccd5);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-bottom: 4px solid #ffdae0;
+}
+
+header h1 {
+  font-size: 2.7rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 1px 2px #c94c7d;
+}
+
+.apelidos {
+  font-size: 1rem;
+  font-style: italic;
+  color: #ffe3ed;
+  margin: 0.5rem 0;
+}
+
+/* Seções gerais */
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff6f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.2);
+}
+
+/* Títulos das seções */
+.galeria h2,
+.historia h2,
+.videos h2 {
+  color: #e75480;
+  font-size: 2rem;
+  border-bottom: 3px dashed #ffc1cc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Galeria de fotos */
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.foto {
+  width: 180px;
+  height: 260px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.foto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.35);
+}
+
+/* Texto da história */
+.historia p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+/* Vídeos */
+.video {
+  width: 100%;
+  max-width: 640px;
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(255, 182, 193, 0.4);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1.8rem;
+  background: linear-gradient(to right, #ffdee9, #fff1f4);
+  color: #5a2a2a;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border-top: 2px solid #ffcad4;
+}
+
+/* Estilo para a seção de Fanfic */
+.fanfic {
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 6px 12px rgba(255, 182, 193, 0.2);
+}
+
+/* Título da seção da fanfic */
+.fanfic h2 {
+  color: #d6336c;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px dotted #fba1b7;
+  padding-bottom: 0.5rem;
+}
+
+/* Estilo da imagem dentro da fanfic */
+.imagem-fanfic {
+  width: 100%;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.imagem-fanfic:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo do conteúdo da fanfic */
+.conteudo-fanfic {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+  margin-top: 1.5rem;
+}
+
+/* Parágrafos dentro da fanfic */
+.conteudo-fanfic p {
+  margin-bottom: 1.5rem;
+}
+
+/* Negrito dentro do conteúdo */
+.conteudo-fanfic strong {
+  color: #d6336c;
+}
+
+/* Final do conteúdo, estilo para destacar */
+.conteudo-fanfic p:last-child {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #8e24aa;
+}
