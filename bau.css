@@ -1,45 +1,91 @@
-/* Estilos gerais */
+/* Estilo geral */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
     color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, #ffe4e1, #ffccd5);
+    padding: 30px 20px;
     text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Título principal */
-h1 {
-    margin-top: 50px;
-    font-size: 2em;
-    color: #333;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #8b004f;
+    letter-spacing: 1px;
 }
 
-/* Estilo para os vídeos no baú de tesouros */
+/* Conteúdo principal */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos de seções */
+section h2 {
+    color: #c71585;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-left: 5px solid #c71585;
+    padding-left: 10px;
+}
+
+/* Estilo dos vídeos */
 .videos-tesouro {
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-/* Estilo individual de cada item de vídeo */
+.video-item {
+    width: 100%;
+    max-width: 380px;
+    flex: 1 1 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.video-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.1);
+}
+
 .video-item video {
     width: 100%;
     height: auto;
-    border: 2px solid #000;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-/* Estilos para o capítulo extra */
-h2 {
-    font-size: 1.5em;
-    margin-top: 30px;
-    color: #444;
-}
-
-p {
+.video-item p {
+    margin-top: 12px;
     font-size: 1em;
-    line-height: 1.6;
-    margin: 20px auto;
-    width: 80%;
-    text-align: justify;
+    color: #555;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ffe4e1;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #666;
+    border-top: 1px solid #e0cfcf;
+    margin-top: 40px;
 }
